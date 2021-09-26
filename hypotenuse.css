@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Source+Code+Pro:wght@500&display=swap');
+
+body{
+    /* padding: 6rem; */
+    background-image: url("images.jpg");
+ font-family: 'Indie Flower', cursive;
+  font-family: 'Source Code Pro', monospace; 
+}
+
+.nav{
+    margin-top:0;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    padding:1rem;
+    text-align: left;
+    font-size:1.2rem
+}  
+
+.nav-link-active {
+    font-weight:  bold;
+    
+}
+h1{
+   color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding:2rem;
+ 
+ 
+}
+
+.container{
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 2px solid #E5E7EB;
+    box-shadow: 5px 5px 5px white;
+    border-radius: 10px;
+    width: 40vw;
+    height: 40vh;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.side{
+    margin:1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#btn{
+    margin-top:20px;
+    background-color: #E7E9E7;
+    border: none;
+    padding: 0.5rem;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px #CACBC9
+
+    
+}
+
+#btn:hover{
+    cursor: pointer;
+    color: red;
+    border-radius: 0.9rem;
+background-color: black;
+}
+
+#output{
+    padding: 1rem;
+     color: red;
+font-size: larger;
+
+    font-weight: bold;
+}

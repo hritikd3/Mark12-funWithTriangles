@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Source+Code+Pro:wght@500&display=swap');
+
+body{
+     padding: 0rem; 
+    background-image: url("images.jpg" );  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  justify-content: left;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Source Code Pro', monospace; 
+}
+
+.nav{
+
+    margin-top:auto;
+    background-color: purple;
+    text-decoration: none;
+    padding:1rem;
+    text-align: left;
+    font-size:1.2rem
+} 
+
+.nav-link-active {
+    font-weight:  bold;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin:2rem;
+}
+
+h1{
+color: white;
+background-color:purple;
+border-radius 1rem;
+font-size: 1.7rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding:2rem;
+}
+p{
+color: white;
+}
+
+.box-details{
+color:white;
+}
+.container{
+    background-color: purple;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #E5E7EB;
+    box-shadow: 7px 6px 5px white;
+    border-radius: 20px;
+    width: 50vw;
+    height: 30vh;
+    padding: 1rem;
+margin:3rem;
+}
+
+#output{
+    padding: 1rem;
+color: red;
+font-size:2rem;
+background-color:white;
+
+}
+#btn{
+
+   margin:1rem;
+    background-color: red;
+background-color: white;
+   border-radius: 1rem;
+    border: none;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: medium;
+    box-shadow: 4px 4px 5px black;
+}

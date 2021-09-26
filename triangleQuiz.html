@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link rel="shortcut icon" href="cake-favicon.jpg" type="image/x-icon"> 
+    <link rel="stylesheet" href="triangleQuiz.css">
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html" >Is Triangle?</a>
+     
+     
+        <a href="hypotenuse.html">Find Hypotenuse</a>
+        <a href="triangleQuiz.html" class="link-nav nav-link-active" >Quiz</a>
+        <a href="AreaOfTriangle.html">Area Of Triangle</a>
+    </nav>
+    <form action="" class="form">
+    <div class="container">
+        <div class=box-details>
+        <h1>Lets play Triangle Quiz</h1>
+        <p>Q1)What will be the third angle if Angle1 = 45, Angle2 = 45</p>
+        <lable> <input type="radio" name="ques1" value="45"> 60</lable>
+        <lable> <input type="radio" name="ques1" value="60"> 75</lable>
+        <lable> <input type="radio" name="ques1" value="90"> 90</lable>
+    </div>
+
+    <div class="container container2">
+         <div class=box-details>
+        <p>Q2)What will be the triangle called if one of its angle is 90 degrees?</p>
+        <lable> <input type="radio" name="ques3" value="acute"/>Acute Triangle</lable>
+        <lable> <input type="radio" name="ques3" value="obtuse"/>Obtuse Triangle</lable>
+        <lable> <input type="radio" name="ques3" value="right angled triangle"/>Right Angled Triangle</lable>   
+    </div>
+    <div class="container container2">
+         <div class=box-details>
+        <p>Q3)If two sides of a triangle is equal to third side, what will be the trangle called</p>
+        <lable> <input type="radio" name="ques2" value="isosceles"/>Isosceles Triangle</lable>
+        <lable> <input type="radio" name="ques2" value="equilateral"/>Equilateral Triangle</lable>
+        <lable> <input type="radio" name="ques2" value="scalene"/>Scalene Triangle</lable>   
+    </div>
+</div>
+</form>
+<div class="form">
+    <button type="submit" id="btn">Submit</button>
+    <div id="output"></div>
+</div>
+</body>
+<script src="triangleQuiz.js"></script>
+</html>
